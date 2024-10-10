@@ -1,0 +1,18 @@
+# Ignore virtual environments
+.venv/
+
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore local database file
+products_service/instance/products.db
+
+# Ignore instance directory (optional)
+products_service/instance/
+
+# Ignore VSCode and other IDE configurations
+.vscode/
+.idea/
