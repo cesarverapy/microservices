@@ -26,6 +26,7 @@ def get_products():
                      "price": p.price}
                      for p in products])
 
+@app.route("/products", methods=["POST"])
 def add_product():
     data = request.json
     new_product = Product(name=data["name"],
